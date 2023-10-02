@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+button {
+  border: none;
+  color: white;
+  background-color: rgb(65, 79, 107);
+  font-family: "Oswald", sans-serif;
+  text-decoration: underline;
+  padding: 0.8em;
+  font-weight: 600;
+}
+a,
+.nav-link {
+  text-decoration: underline;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+a {
+  color: rgb(65, 79, 107);
+}
+p {
+  line-height: 2;
+  gap: 5px;
+  word-spacing: 2px;
+}
+.hero_header {
+  /* border: 1px solid salmon; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+
+#navbarSupportedContent ul {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.carousel_container {
+  background-color: rgb(65, 79, 107);
+  opacity: 0.9;
+  position: absolute;
+  top: 75%;
+  left: 0;
+  right: 0;
+}
+#section_1 {
+  position: relative;
+}
+.section_1-text {
+  position: absolute;
+  margin: 0 auto;
+  left: 5%;
+  top: 10%;
+}
+
+.section_2-nav {
+  background-color: rgb(65, 79, 107);
+}
+
+footer {
+  background-color: rgb(65, 79, 107);
+  opacity: 0.9;
+  color: rgb(157, 163, 175);
+}
+
+.isActive {
+  background-color: white;
+  color: rgb(65, 79, 107);
+  font-family: "Oswald", sans-serif;
+  text-decoration: underline;
+  padding: 0.8em;
+  font-weight: 600;
+}
+#section_2-image-container {
+  position: relative;
+}
+#schedule {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  background-color: white;
+  padding: 1.5em;
+  opacity: 0.8;
+}
+
+#footer_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+@media only screen and (max-width: 986px) {
+  .carousel_container {
+    display: none;
+  }
+  .section_1-text,
+  .section_2-text {
+    transform: scale(0.8);
+  }
+  #section_1 {
+    height: fit-content;
+  }
+  #schedule,
+  .section_1-header-list {
+    transform: scale(0.8);
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  #schedule {
+    position: unset;
+  }
+  .section_1-text {
+    position: unset;
+  }
+}
