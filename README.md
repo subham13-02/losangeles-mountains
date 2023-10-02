@@ -1,8 +1,14 @@
 # LOSANGELES MOUNTAINS
 
+
+## Repository Link
+
+        https://github.com/subham13-02/losangeles-mountains
+
 ## Deployed Link
 
-[LosAngeles Mountains]()
+        https://subham13-02.github.io/losangeles-mountains/
+
 
 ## Tech Stack: 
     1.VSCode
